@@ -8,7 +8,7 @@ bootstrap = Bootstrap(app)
 
 app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = 'lux'
 
-@app.route('/SCAMkalender')
+@app.route('/')
 def einkaufsliste():
     return render_template('veranstaltungskalender.html')
 
