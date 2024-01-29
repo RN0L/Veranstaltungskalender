@@ -2,7 +2,7 @@
 
 ## Beschreibung
 
-Dieses Repository enthält einen einfachen Veranstaltungskalender, der für die Organisation und Planung von Veranstaltungen genutzt werden kann. Der Kalender ist in HTML, CSS und JavaScript implementiert und bietet eine benutzerfreundliche Oberfläche für das Hinzufügen, Bearbeiten und Anzeigen von Veranstaltungen.
+Dieses Repository enthält einen einfachen Veranstaltungskalender, der für die Organisation und Planung von Veranstaltungen genutzt werden kann. Der Kalender ist in HTML, CSS und Python implementiert und bietet eine benutzerfreundliche Oberfläche für das Hinzufügen, Bearbeiten und Anzeigen von Veranstaltungen.
 
 ## Funktionen
 
