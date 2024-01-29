@@ -1,6 +1,6 @@
-{% extends "base.html" %}
 
-<html>
+
+<html> 
 <head>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
     <title>Veranstaltungskalender</title>
@@ -16,18 +16,18 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home
+          <a class="nav-link active" href="#">Filter nach:
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Veranstalter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Zeitraum</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Ort</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -57,6 +57,7 @@
             <th>Wann</th>
             <th>Wo</th>
             <th>günstigste Preis</th>
+            <th>Tickets hier</th>
         </tr>
     </thead>
     <tbody>
@@ -65,24 +66,27 @@
             <td>18.02.2024</td>
             <td>Berlin</td>
             <td>30</td>
+            <td> <a href="url">Tickets</a></td>
         </tr>
         <tr>
             <td>Rammstein</td>
             <td>10.10.2024</td>
             <td>Buxtehude</td>
             <td>70</td>
+            <td> <a href="url">Tickets</a></td>
         </tr>
         <tr>
             <td>Santiano</td>
             <td>13.05.2024</td>
             <td>Köln</td>
             <td>130</td>
-        </tr>
+            <td> <a href="url">Tickets</a></td>
         <tr>
             <td>Standart Skill</td>
             <td>26.08.2024</td>
             <td>Rasstadt</td>
             <td>1000</td>
+            <td> <a href="url">Tickets</a></td>
         </tr>
     </tbody>
 </table>
