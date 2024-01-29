@@ -10,7 +10,7 @@ app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = 'lux'
 
 @app.route('/')
 def einkaufsliste():
-    return render_template('veranstaltungskalaender.html')
+    return render_template('veranstaltungskalender.html')
 
 
 
