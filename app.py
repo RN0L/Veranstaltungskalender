@@ -8,9 +8,9 @@ bootstrap = Bootstrap(app)
 
 app.config['BOOTSTRAP_BOOTSWATCH_THEME'] = 'lux'
 
-@app.route('/einkaufsliste')
+@app.route('/')
 def einkaufsliste():
-    return render_template('index.html', einkaufsliste = Einkaufsliste)
+    return render_template('veranstaltungskalaender.html')
 
 
 
