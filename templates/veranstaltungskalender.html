@@ -1,53 +1,59 @@
-
-
-<html> 
+[10:57] Leonard Arnold
+ 
+<html>
 <head>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
     <title>Veranstaltungskalender</title>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Filter nach:
-            <span class="visually-hidden">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Veranstalter</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Zeitraum</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Ort</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
+ 
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Filter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Band</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Zeitraum</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Wo</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
-
+  </nav>
+ 
 <h1><br/>Veranstaltungskalender</h1>
 <!--1 <p> das muss ich noch einkaufen {{ einkaufsliste }}</p> -->
 <table class="table table-hover">
@@ -57,7 +63,7 @@
             <th>Wann</th>
             <th>Wo</th>
             <th>günstigste Preis</th>
-            <th>Tickets hier</th>
+            <th>Tickets</th>
         </tr>
     </thead>
     <tbody>
@@ -66,30 +72,33 @@
             <td>18.02.2024</td>
             <td>Berlin</td>
             <td>30</td>
-            <td> <a href="url">Tickets</a></td>
+            <td><a href="url">Tickets</a></td>
         </tr>
         <tr>
             <td>Rammstein</td>
             <td>10.10.2024</td>
             <td>Buxtehude</td>
             <td>70</td>
-            <td> <a href="url">Tickets</a></td>
+            <td><a href="url">Tickets</a></td>
         </tr>
         <tr>
             <td>Santiano</td>
             <td>13.05.2024</td>
             <td>Köln</td>
             <td>130</td>
-            <td> <a href="url">Tickets</a></td>
+            <td><a href="url">Tickets</a></td>
+        </tr>
         <tr>
             <td>Standart Skill</td>
             <td>26.08.2024</td>
             <td>Rasstadt</td>
             <td>1000</td>
-            <td> <a href="url">Tickets</a></td>
+            <td><a href="url">Tickets</a></td>
         </tr>
     </tbody>
 </table>
-
+ 
 </body>
 </html>
+ 
+
